@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<table width="800" border="1">
+			<tr>
+				<td>
+					<marquee>这是一个滚动的效果</marquee>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<marquee direction="right">这是一个滚动的效果</marquee>
+				</td>
+			</tr>
+			<tr>
+				<td height="200">
+					<marquee direction="up" height="200">这是一个滚动的效果</marquee>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<marquee scrollamount="20" scrolldelay="500">这是一个滚动的效果</marquee>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<!--谷歌浏览器不支持-->
+					<marquee onmouseover="this.scrollAmount=1" onmouseout="this.scrollAmount=10">这是一个滚动的效果</marquee>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<marquee onmouseover="this.stop()" onmouseout="this.start()">这是一个滚动的效果</marquee>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
